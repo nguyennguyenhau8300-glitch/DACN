@@ -1,0 +1,2 @@
+import {defineConfig} from '../playwright.mjs';
+export default defineConfig({testDir:'.',outputDir:'../../ket_qua/web-test-results',testMatch:'*.spec.js',fullyParallel:false,workers:1,timeout:60000,retries:0,reporter:'list',use:{baseURL:process.env.E2E_BASE_URL||'http://127.0.0.1:5173/dashboard/',channel:process.env.E2E_BROWSER_CHANNEL||undefined,viewport:{width:1440,height:1000},trace:'retain-on-failure',screenshot:'only-on-failure'}});

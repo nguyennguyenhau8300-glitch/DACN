@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "plates": [
+    "53F17609",
+    "24B150935",
+    "16F27080"
+  ],
+  "moving_input": true,
+  "fps": 10,
+  "frames": 150
+}

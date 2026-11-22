@@ -1,0 +1,10 @@
+# Outputs produced by local tests and optional demo tools
+/ket_qua/
+/work/
+/du_lieu_ai/
+/cong_cu_phat_trien/tools/bin/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log

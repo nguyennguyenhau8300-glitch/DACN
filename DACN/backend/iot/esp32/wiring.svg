@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570">
+<rect width="1000" height="570" rx="18" fill="#f4f7f0"/><g font-family="Arial,sans-serif" fill="#153e32">
+<text x="35" y="43" font-size="25" font-weight="bold">Parkly · ESP32 + cảm biến HC-SR04</text><text x="35" y="73" font-size="15">Sơ đồ nối dây tham khảo — chưa lắp hoặc kiểm chứng trên thiết bị thật</text>
+<rect x="80" y="140" width="245" height="260" rx="14" fill="#165a47"/><text x="120" y="180" font-size="24" fill="white">ESP32 DevKit</text>
+<g font-size="17" fill="white"><text x="240" y="225">VIN 5V</text><text x="240" y="270">GPIO 5</text><text x="225" y="315">GPIO 18</text><text x="260" y="365">GND</text></g>
+<rect x="725" y="140" width="230" height="210" rx="14" fill="#dcebc9" stroke="#72936b"/><text x="770" y="178" font-size="24">HC-SR04</text>
+<g font-size="17"><text x="742" y="220">VCC</text><text x="742" y="263">TRIG</text><text x="742" y="305">ECHO (5V)</text><text x="880" y="335">GND</text></g>
+<g fill="none" stroke-width="3"><path d="M325 220 H725" stroke="#cf6948"/><path d="M325 265 H725" stroke="#348e76"/><path d="M725 300 H650" stroke="#d09931"/><path d="M570 300 H490 V310 H325" stroke="#d09931"/><path d="M490 300 V345" stroke="#d09931"/><path d="M490 405 V445 H325 V360" stroke="#6c7d79"/><path d="M915 350 V445 H490" stroke="#6c7d79"/></g>
+<rect x="570" y="290" width="80" height="20" fill="white" stroke="#866739" stroke-width="2"/><text x="578" y="280" font-size="16">R1 = 1 kΩ</text>
+<rect x="480" y="345" width="20" height="60" fill="white" stroke="#866739" stroke-width="2"/><text x="510" y="380" font-size="16">R2 = 2 kΩ</text><circle cx="490" cy="300" r="5" fill="#d09931"/>
+<text x="350" y="330" font-size="14">ECHO sau chia áp ≈ 3,33 V</text><text x="35" y="485" font-size="16">TRIG: GPIO 5 · ECHO: GPIO 18 · nối chung GND · không đưa ECHO 5V trực tiếp vào ESP32.</text>
+<text x="35" y="515" font-size="16">Bản firmware tham khảo chỉ gửi cảm biến và nhận ACK qua MQTT; barie trên web vẫn là relay ảo.</text><text x="35" y="545" font-size="14">Đây là mạch tín hiệu thấp áp. Chưa có sơ đồ đấu điện lưới, bộ sạc EV hoặc barie thực tế.</text></g></svg>

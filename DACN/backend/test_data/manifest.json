@@ -1,0 +1,106 @@
+[
+  {
+    "id": "car_gas_clear",
+    "filename": "car_gas_clear.jpg",
+    "label": "Ô tô xăng · rõ",
+    "vehicle_type": "CAR",
+    "energy_type": "GASOLINE",
+    "plate": "53F17609"
+  },
+  {
+    "id": "car_gas_blurred",
+    "filename": "car_gas_blurred.jpg",
+    "label": "Ô tô xăng · hơi mờ",
+    "vehicle_type": "CAR",
+    "energy_type": "GASOLINE",
+    "plate": "53F17609"
+  },
+  {
+    "id": "car_gas_tilted",
+    "filename": "car_gas_tilted.jpg",
+    "label": "Ô tô xăng · hơi lệch",
+    "vehicle_type": "CAR",
+    "energy_type": "GASOLINE",
+    "plate": "53F17609"
+  },
+  {
+    "id": "motorbike_gas_clear",
+    "filename": "motorbike_gas_clear.jpg",
+    "label": "Xe máy xăng · rõ",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "GASOLINE",
+    "plate": "24B150935"
+  },
+  {
+    "id": "motorbike_gas_blurred",
+    "filename": "motorbike_gas_blurred.jpg",
+    "label": "Xe máy xăng · hơi mờ",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "GASOLINE",
+    "plate": "24B150935"
+  },
+  {
+    "id": "motorbike_gas_tilted",
+    "filename": "motorbike_gas_tilted.jpg",
+    "label": "Xe máy xăng · hơi lệch",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "GASOLINE",
+    "plate": "24B150935"
+  },
+  {
+    "id": "car_electric_clear",
+    "filename": "car_electric_clear.jpg",
+    "label": "Ô tô điện · rõ",
+    "vehicle_type": "CAR",
+    "energy_type": "ELECTRIC",
+    "plate": "16F27080"
+  },
+  {
+    "id": "car_electric_blurred",
+    "filename": "car_electric_blurred.jpg",
+    "label": "Ô tô điện · hơi mờ",
+    "vehicle_type": "CAR",
+    "energy_type": "ELECTRIC",
+    "plate": "16F27080"
+  },
+  {
+    "id": "car_electric_tilted",
+    "filename": "car_electric_tilted.jpg",
+    "label": "Ô tô điện · hơi lệch",
+    "vehicle_type": "CAR",
+    "energy_type": "ELECTRIC",
+    "plate": "16F27080"
+  },
+  {
+    "id": "motorbike_electric_clear",
+    "filename": "motorbike_electric_clear.jpg",
+    "label": "Xe máy điện · rõ",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "ELECTRIC",
+    "plate": "89B130048"
+  },
+  {
+    "id": "motorbike_electric_blurred",
+    "filename": "motorbike_electric_blurred.jpg",
+    "label": "Xe máy điện · hơi mờ",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "ELECTRIC",
+    "plate": "89B130048"
+  },
+  {
+    "id": "motorbike_electric_tilted",
+    "filename": "motorbike_electric_tilted.jpg",
+    "label": "Xe máy điện · hơi lệch",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "ELECTRIC",
+    "plate": "89B130048"
+  },
+  {
+    "id": "blank",
+    "filename": "blank.jpg",
+    "label": "Không có biển số · kiểm tra ngoại lệ",
+    "vehicle_type": null,
+    "energy_type": null,
+    "plate": null
+  }
+]

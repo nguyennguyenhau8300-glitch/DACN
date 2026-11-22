@@ -1,0 +1,24 @@
+[
+  {
+    "id": "demo_car_scene",
+    "filename": "demo_car_scene.jpg",
+    "label": "Mẫu đã kiểm thử · Ô tô",
+    "vehicle_type": "CAR",
+    "energy_type": "GASOLINE",
+    "plate": "53F17609",
+    "source": "https://www.kaggle.com/datasets/miahuynh04/vietnamese-license-plate-detection",
+    "source_file": "CarLongPlate15.jpg",
+    "modifications": "Replaced original plate with a demo plate, obscured the driver and removed the timestamp."
+  },
+  {
+    "id": "demo_motorbike_scene",
+    "filename": "demo_motorbike_scene.jpg",
+    "label": "Mẫu đã kiểm thử · Xe máy",
+    "vehicle_type": "MOTORBIKE",
+    "energy_type": "GASOLINE",
+    "plate": "24B150935",
+    "source": "https://www.kaggle.com/datasets/miahuynh04/vietnamese-license-plate-detection",
+    "source_file": "xemay126.jpg",
+    "modifications": "Replaced original plate with a demo plate and removed the timestamp."
+  }
+]
